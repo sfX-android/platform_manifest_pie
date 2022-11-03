@@ -241,6 +241,8 @@
   <project name="LineageOS/android_vendor_qcom_opensource_thermal-engine" path="vendor/qcom/opensource/thermal-engine" revision="3e8495d73f1a36c809a66f3af46f53ae7b37f9f0" upstream="refs/heads/lineage-16.0" dest-branch="refs/heads/lineage-16.0" groups="qcom,pdk-qcom"/>
   <project name="LineageOS/contributors-cloud-generator" path="lineage/contributors-cloud-generator" revision="b4f0e2854ae40961b1028744df3503ac39792cab" upstream="master" dest-branch="master" groups="tools"/>
   <project name="LineageOS/scripts" path="lineage/scripts" revision="93862849268375a0b93eff7c7e22add4ad4bde59" upstream="master" dest-branch="master" groups="tools"/>
+  <project name="LineageOS/android_external_expat" path="external/expat" groups="pdk"/>
+  <project name="LineageOS/android_external_dtc" path="external/dtc" groups="pdk"/>
   <project name="device/common" remote="aosp" revision="40113d035473d35c56cf62e9801ddaed8d7c16ac" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk-cw-fs,pdk"/>
   <project name="device/generic/arm64" remote="aosp" revision="325b7ec3eab920869050bbfedbd3461f9aed5eb5" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk"/>
   <project name="device/generic/armv7-a-neon" remote="aosp" revision="9e96e041bf3c9d5b57b11f921c6339e076478a7a" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk"/>
@@ -358,13 +360,11 @@
   <project name="platform/external/drm_hwcomposer" path="external/drm_hwcomposer" remote="aosp" revision="fd18c84d877c1d09cc4e8362971d63d5d723098b" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="drm_hwcomposer,pdk-fs"/>
   <project name="platform/external/droiddriver" path="external/droiddriver" remote="aosp" revision="ef618d981947f6d8242755516269a0026c07126c" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk"/>
   <project name="platform/external/drrickorang" path="external/drrickorang" remote="aosp" revision="5156a6f8282f7d85f879a6b9c5db31f85840fcf0" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk"/>
-  <project name="platform/external/dtc" path="external/dtc" remote="aosp" revision="6c6634a26785d16b058ee3799f69cd3606a557ca" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk"/>
   <project name="platform/external/easymock" path="external/easymock" remote="aosp" revision="045fe1a003805f21f4bd266ab202319486a90284" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk"/>
   <project name="platform/external/eigen" path="external/eigen" remote="aosp" revision="30c5ae43fa590b0f0afa598081b30d3a236f1654" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk"/>
   <project name="platform/external/emma" path="external/emma" remote="aosp" revision="181b44b0422f2ca9a844a39f0b7e7f20c2712b72" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk"/>
   <project name="platform/external/error_prone" path="external/error_prone" remote="aosp" revision="599035c4d0affc32bcae339f3966c07d2f1cf8af" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk"/>
   <project name="platform/external/esd" path="external/esd" remote="aosp" revision="943c42b6f8e9afe821744aa4c039f4943ebf29f5" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk"/>
-  <project name="platform/external/expat" path="external/expat" remote="aosp" revision="9a9c9b09b900298549ecdbef960fd94c998065e7" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk"/>
   <project name="platform/external/eyes-free" path="external/eyes-free" remote="aosp" revision="16bd4c7a4d1bfe229068b637614dad7c48dd2ceb" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk"/>
   <project name="platform/external/fdlibm" path="external/fdlibm" remote="aosp" revision="59f7335e4dd8275a7dc2f8aeb4fd00758fde37ac" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk"/>
   <project name="platform/external/fec" path="external/fec" remote="aosp" revision="f1a79657c21ec4acade0657f3606a0c868b6866e" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk"/>
