@@ -240,8 +240,8 @@
   <project name="LineageOS/android_vendor_qcom_opensource_thermal-engine" path="vendor/qcom/opensource/thermal-engine" revision="3e8495d73f1a36c809a66f3af46f53ae7b37f9f0" upstream="refs/heads/lineage-16.0" dest-branch="refs/heads/lineage-16.0" groups="qcom,pdk-qcom"/>
   <project name="LineageOS/contributors-cloud-generator" path="lineage/contributors-cloud-generator" revision="b4f0e2854ae40961b1028744df3503ac39792cab" upstream="master" dest-branch="master" groups="tools"/>
   <project name="LineageOS/scripts" path="lineage/scripts" revision="93862849268375a0b93eff7c7e22add4ad4bde59" upstream="master" dest-branch="master" groups="tools"/>
-  <project name="LineageOS/android_external_expat" path="external/expat" groups="pdk"/>
-  <project name="LineageOS/android_external_dtc" path="external/dtc" groups="pdk"/>
+  <project name="LineageOS/android_external_expat" revision="lineage-16.0" path="external/expat" groups="pdk"/>
+  <project name="LineageOS/android_external_dtc" revision="lineage-16.0" path="external/dtc" groups="pdk"/>
   <project name="device/common" remote="aosp" revision="40113d035473d35c56cf62e9801ddaed8d7c16ac" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk-cw-fs,pdk"/>
   <project name="device/generic/arm64" remote="aosp" revision="325b7ec3eab920869050bbfedbd3461f9aed5eb5" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk"/>
   <project name="device/generic/armv7-a-neon" remote="aosp" revision="9e96e041bf3c9d5b57b11f921c6339e076478a7a" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk"/>
