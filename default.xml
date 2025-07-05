@@ -239,7 +239,7 @@
   <project name="LineageOS/android_vendor_qcom_opensource_thermal-engine" path="vendor/qcom/opensource/thermal-engine" upstream="refs/heads/lineage-16.0" dest-branch="refs/heads/lineage-16.0" groups="qcom,pdk-qcom"/>
   <project name="LineageOS/contributors-cloud-generator" path="lineage/contributors-cloud-generator" upstream="master" dest-branch="master" groups="tools"/>
   <project name="LineageOS/scripts" path="lineage/scripts" upstream="master" dest-branch="master" groups="tools"/>
-  <project path="external/expat" name="platform/external/expat" groups="pdk" remote="aosp" />
+  <project path="external/expat" name="LineageOS/android_external_expat" groups="pdk" />
   <project name="LineageOS/android_external_dtc" revision="lineage-16.0" path="external/dtc" groups="pdk"/>
   <project name="device/common" remote="aosp" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk-cw-fs,pdk"/>
   <project name="device/generic/arm64" remote="aosp" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk"/>
@@ -372,7 +372,7 @@
   <project name="platform/external/fonttools" path="external/fonttools" remote="aosp" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk"/>
   <project name="platform/external/gemmlowp" path="external/gemmlowp" remote="aosp" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk"/>
   <project name="platform/external/gflags" path="external/gflags" remote="aosp" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk"/>
-  <project name="platform/external/giflib" path="external/giflib" remote="aosp" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk,qcom_msm8x26"/>
+  <project path="external/giflib" name="LineageOS/android_external_giflib" groups="pdk,qcom_msm8x26" />
   <project name="platform/external/glide" path="external/glide" remote="aosp" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk"/>
   <project name="platform/external/golang-protobuf" path="external/golang-protobuf" remote="aosp" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk"/>
   <project name="platform/external/google-benchmark" path="external/google-benchmark" remote="aosp" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk"/>
@@ -452,7 +452,7 @@
   <project name="platform/external/libxaac" path="external/libxaac" remote="aosp" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk"/>
   <project name="platform/external/libxcam" path="external/libxcam" remote="aosp" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk"/>
   <project name="platform/external/libxkbcommon" path="external/libxkbcommon" remote="aosp" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk"/>
-  <project name="platform/external/libxml2" path="external/libxml2" remote="aosp" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk,libxml2"/>
+  <project path="external/libxml2" name="LineageOS/android_external_libxml2" groups="pdk,libxml2" />
   <project name="platform/external/libyuv" path="external/libyuv" remote="aosp" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk,libyuv"/>
   <project name="platform/external/linux-kselftest" path="external/linux-kselftest" remote="aosp" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="vts,pdk"/>
   <project name="platform/external/lisa" path="external/lisa" remote="aosp" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk"/>
@@ -673,7 +673,7 @@
   <project name="platform/prebuilts/tools" path="prebuilts/tools" remote="aosp" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk,tools" clone-depth="1"/>
   <project name="platform/prebuilts/vndk/v27" path="prebuilts/vndk/v27" remote="aosp" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk" clone-depth="1"/>
   <project name="platform/sdk" path="sdk" remote="aosp" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="platform/system/ca-certificates" path="system/ca-certificates" remote="aosp" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk"/>
+  <project path="system/ca-certificates" name="LineageOS/android_system_ca-certificates" groups="pdk" />
   <project name="platform/system/chre" path="system/chre" remote="aosp" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk"/>
   <project name="platform/system/connectivity/wifilogd" path="system/connectivity/wifilogd" remote="aosp" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk"/>
   <project name="platform/system/gatekeeper" path="system/gatekeeper" remote="aosp" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk"/>
@@ -699,7 +699,7 @@
   <project name="platform/test/vts-testcase/performance" path="test/vts-testcase/performance" remote="aosp" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="vts,pdk"/>
   <project name="platform/test/vts-testcase/security" path="test/vts-testcase/security" remote="aosp" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="vts,pdk"/>
   <project name="platform/tools/acloud" path="tools/acloud" remote="aosp" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="tools,vts,pdk,tradefed"/>
-  <project name="platform/tools/apksig" path="tools/apksig" remote="aosp" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk,tradefed"/>
+  <project path="tools/apksig" name="LineageOS/android_tools_apksig" groups="pdk,tradefed" />
   <project name="platform/tools/apkzlib" path="tools/apkzlib" remote="aosp" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="pdk,tradefed"/>
   <project name="platform/tools/appbundle" path="tools/appbundle" remote="aosp" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46"/>
   <project name="platform/tools/dexter" path="tools/dexter" remote="aosp" upstream="refs/tags/android-9.0.0_r46" dest-branch="refs/tags/android-9.0.0_r46" groups="tools,pdk-fs"/>
